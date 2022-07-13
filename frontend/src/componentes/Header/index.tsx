@@ -8,7 +8,7 @@ function Header() {
             <header>
                 <div className="dsmeta-logo-container">
                     <img src={logo} alt="Logo principal" />
-                    <h1>DSMeta</h1>
+                    <h1>Projeto DSMeta</h1>
                 </div>
             </header>
         </>
