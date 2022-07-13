@@ -1,15 +1,19 @@
 import React from "react"
+import Card from "./componentes/Card"
+import Header from "./componentes/Header"
 import NoficationButton from "./componentes/NotificationButton"
 
 function App() {
   return (
     <>
-      <h1>Olá mundo!</h1>
-      <NoficationButton />
-      <NoficationButton />
-      <NoficationButton />
-      <NoficationButton />
-      <NoficationButton />
+      <Header/>
+      <main>
+        <section id="sales">
+          <div className="dsmeta-container">
+            <Card/>
+          </div>
+        </section>
+      </main>
     </>
   )
 }

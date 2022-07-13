@@ -10,6 +10,11 @@
     cursor: pointer;
 }
 
+.dsmeta-red-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
 .dsmeta-red-btn imagem {
     width: 19px;
 }
